@@ -15,12 +15,12 @@
             background-color: #f9f9f9; /* Background color */
         }
 
-        /* CSS styles for the heading */
+       
         .registration-heading {
             text-align: center; /* Center the heading text */
         }
 
-        /* CSS styles for input fields */
+    
         .input-field {
             width: 100%;
             padding: 8px;
@@ -39,7 +39,11 @@
 
         <label for="lastname">Last Name:</label>
         <input type="text" id="lastname" name="lastname" class="input-field" required><br>
-
+        
+         <label for="regno">Register No:</label>
+        <input type="text" id="regno" name="regno" class="input-field" required><br>
+        
+        
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" class="input-field" required><br>
 
